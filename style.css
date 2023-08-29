@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+ 
+.container img{
+    margin-top: 200px;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+
+}
+
+label{
+    color: white;
+    color: #FFF;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.formulario{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email{
+    width: 250px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 4.023px;
+    border: 1.609px solid #C5C2C2;
+    background: #353535;
+    
+}
+
+.senha{
+    width: 250px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 4.023px;
+    border: 1.609px solid #C5C2C2;
+    background: #353535;
+    
+}
+
+button{
+    display: flex;
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    width: 110px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2FB23C;
+}
